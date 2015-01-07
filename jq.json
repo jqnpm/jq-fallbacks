@@ -1,6 +1,6 @@
 {
     "name": "fallbacks",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "Provide fallbacks for bad values",
     "homepage": "https://github.com/joelpurra/jq-fallbacks",
     "bugs": "https://github.com/joelpurra/jq-fallbacks/issues",
