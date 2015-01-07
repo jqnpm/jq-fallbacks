@@ -9,7 +9,7 @@ Provide fallbacks for bad values.
 This is a package for the command-line JSON processor [`jq`](https://stedolan.github.io/jq/). Install the package with [jqnpm](https://github.com/joelpurra/jqnpm):
 
 ```bash
-jqnpm install joelpurra/jq-fallback
+jqnpm install joelpurra/jq-fallbacks
 ```
 
 
