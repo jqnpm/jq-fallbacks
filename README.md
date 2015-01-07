@@ -21,20 +21,20 @@ jqnpm install joelpurra/jq-fallbacks
 import "joelpurra/jq-fallbacks" as Fallbacks;
 
 # unlessNullFallback(<normal>; <fallback>)
-"not null" | Fallbacks::unlessNullFallback("a"; "b")  # a
-null | Fallbacks::unlessNullFallback("a"; "b")        # b
+"not null" | Fallbacks::unlessNullFallback("a"; "b"),  # "a"
+null | Fallbacks::unlessNullFallback("a"; "b"),        # "b"
 
 # ifNull(<fallback>)
-"not null" | ifNull("a")  # "not null"
-null | ifNull("a")        # "a"
+"not null" | Fallbacks::ifNull("a"),  # "not null"
+null | Fallbacks::ifNull("a"),        # "a"
 
 # unlessNull(<fallback>)
-"not null" | unlessNull("a")  # "a"
-null | unlessNull("a")        # "not null"
+"not null" | Fallbacks::unlessNull("a"),  # "a"
+null | Fallbacks::unlessNull("a"),        # "not null"
 
 # nullAsObject
-"not null" | nullAsObject("a")  # "not null"
-null | nullAsObject("a")        # {}
+"not null" | Fallbacks::nullAsObject("a"),  # "not null"
+null | Fallbacks::nullAsObject("a"),        # {}
 ```
 
 
