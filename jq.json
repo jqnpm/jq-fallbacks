@@ -1,0 +1,28 @@
+{
+    "name": "fallbacks",
+    "version": "0.0.0",
+    "description": "Provide fallbacks for bad values",
+    "homepage": "https://github.com/joelpurra/jq-fallbacks",
+    "bugs": "https://github.com/joelpurra/jq-fallbacks/issues",
+    "author": {
+        "name": "Joel Purra",
+        "url": "http://joelpurra.com/"
+    },
+    "main": "./jq/main.jq",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/joelpurra/jq-fallbacks.git"
+    },
+    "dependencies": {},
+    "engines": {
+        "jq": "^1.5.0",
+        "jqnpm": "^1.0.0"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://joelpurra.mit-license.org/2014-2015"
+    }],
+    "keywords": [
+        "jq-package"
+    ]
+}
