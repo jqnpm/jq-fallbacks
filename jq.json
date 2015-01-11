@@ -1,7 +1,7 @@
 {
     "name": "fallbacks",
     "version": "0.1.0",
-    "description": "Provide fallbacks for bad values",
+    "description": "Provide fallbacks for bad values.",
     "homepage": "https://github.com/joelpurra/jq-fallbacks",
     "bugs": "https://github.com/joelpurra/jq-fallbacks/issues",
     "author": {
@@ -20,7 +20,7 @@
     },
     "licenses": [{
         "type": "MIT",
-        "url": "http://joelpurra.mit-license.org/2014-2015"
+        "url": "http://opensource.org/licenses/MIT"
     }],
     "keywords": [
         "jq-package"
